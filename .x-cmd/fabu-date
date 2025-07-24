@@ -1,0 +1,19 @@
+
+
+# https://docs.github.com/en/rest/models/catalog?apiVersion=2022-11-28#list-all-models
+fun_fabu_models_data()(
+    \cd "$(x wsroot)" || return $?
+
+    local file="data/model.json"
+    local tmpfile="$file.tmp"
+    \curl -L \
+        -H "Accept: application/vnd.github+json" \
+        -H "Authorization: Bearer <YOUR-TOKEN>" \
+        -H "X-GitHub-Api-Version: $(date -u +"%Y-%m-%d")" \
+        https://models.github.ai/catalog/models > "$tmpfile" || return $?
+
+    < "$tmpfile" x jo fmt > "$file"
+    x rmrf "$tmpfile"
+)
+
+fun_fabu_models_data "$@"
