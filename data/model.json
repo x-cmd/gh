@@ -156,6 +156,130 @@
     "html_url": "https://github.com/marketplace/models/azure-openai/gpt-4o-mini"
   },
   {
+    "id": "openai/gpt-5",
+    "name": "OpenAI gpt-5",
+    "publisher": "OpenAI",
+    "summary": "gpt-5 is designed for logic-heavy and multi-step tasks. ",
+    "rate_limit_tier": "custom",
+    "supported_input_modalities": [
+      "text",
+      "image"
+    ],
+    "supported_output_modalities": [
+      "text"
+    ],
+    "tags": [
+      "multipurpose",
+      "multilingual",
+      "multimodal"
+    ],
+    "registry": "azure-openai",
+    "version": "2025-08-07",
+    "capabilities": [
+      "reasoning",
+      "tool-calling",
+      "streaming"
+    ],
+    "limits": {
+      "max_input_tokens": 200000,
+      "max_output_tokens": 100000
+    },
+    "html_url": "https://github.com/marketplace/models/azure-openai/gpt-5"
+  },
+  {
+    "id": "openai/gpt-5-chat",
+    "name": "OpenAI gpt-5-chat (preview)",
+    "publisher": "OpenAI",
+    "summary": "gpt-5-chat (preview) is an advanced, natural, multimodal, and context-aware conversations for enterprise applications.",
+    "rate_limit_tier": "custom",
+    "supported_input_modalities": [
+      "text",
+      "image"
+    ],
+    "supported_output_modalities": [
+      "text"
+    ],
+    "tags": [
+      "multipurpose",
+      "multilingual",
+      "multimodal"
+    ],
+    "registry": "azure-openai",
+    "version": "2025-08-07",
+    "capabilities": [
+      "reasoning",
+      "tool-calling",
+      "streaming"
+    ],
+    "limits": {
+      "max_input_tokens": 200000,
+      "max_output_tokens": 100000
+    },
+    "html_url": "https://github.com/marketplace/models/azure-openai/gpt-5-chat"
+  },
+  {
+    "id": "openai/gpt-5-mini",
+    "name": "OpenAI gpt-5-mini",
+    "publisher": "OpenAI",
+    "summary": "gpt-5-mini is a lightweight version for cost-sensitive applications.",
+    "rate_limit_tier": "custom",
+    "supported_input_modalities": [
+      "text",
+      "image"
+    ],
+    "supported_output_modalities": [
+      "text"
+    ],
+    "tags": [
+      "multipurpose",
+      "multilingual",
+      "multimodal"
+    ],
+    "registry": "azure-openai",
+    "version": "2025-08-07",
+    "capabilities": [
+      "reasoning",
+      "tool-calling",
+      "streaming"
+    ],
+    "limits": {
+      "max_input_tokens": 200000,
+      "max_output_tokens": 100000
+    },
+    "html_url": "https://github.com/marketplace/models/azure-openai/gpt-5-mini"
+  },
+  {
+    "id": "openai/gpt-5-nano",
+    "name": "OpenAI gpt-5-nano",
+    "publisher": "OpenAI",
+    "summary": "gpt-5-nano is optimized for speed, ideal for applications requiring low latency. ",
+    "rate_limit_tier": "custom",
+    "supported_input_modalities": [
+      "text",
+      "image"
+    ],
+    "supported_output_modalities": [
+      "text"
+    ],
+    "tags": [
+      "multipurpose",
+      "multilingual",
+      "multimodal"
+    ],
+    "registry": "azure-openai",
+    "version": "2025-08-07",
+    "capabilities": [
+      "reasoning",
+      "tool-calling",
+      "streaming"
+    ],
+    "limits": {
+      "max_input_tokens": 200000,
+      "max_output_tokens": 100000
+    },
+    "html_url": "https://github.com/marketplace/models/azure-openai/gpt-5-nano"
+  },
+  {
     "id": "openai/o1",
     "name": "OpenAI o1",
     "publisher": "OpenAI",
