@@ -641,7 +641,8 @@
     "registry": "azureml-cohere",
     "version": "1",
     "capabilities": [
-      
+      "streaming",
+      "tool-calling"
     ],
     "limits": {
       "max_input_tokens": 131072,
@@ -721,7 +722,8 @@
     "registry": "azureml-core42",
     "version": "3",
     "capabilities": [
-      
+      "streaming",
+      "tool-calling"
     ],
     "limits": {
       "max_input_tokens": 8192,
@@ -1646,7 +1648,7 @@
   },
   {
     "id": "microsoft/phi-4-reasoning",
-    "name": "Phi-4-Reasoning",
+    "name": "Phi-4-reasoning",
     "publisher": "Microsoft",
     "summary": "State-of-the-art open-weight reasoning model.",
     "rate_limit_tier": "low",
